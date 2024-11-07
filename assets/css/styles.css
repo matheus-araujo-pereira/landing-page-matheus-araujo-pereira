@@ -14,12 +14,50 @@
   justify-content: center;
 }
 
-.introducao-texto h2 {
-  font-size: 6rem;
-  margin-bottom: 5rem;
-}
-
-.introducao-imagem img {
+.introducao-imagem img,
+.introducao-imagem svg {
   max-width: 100%;
   height: auto;
+}
+
+.habilidades-content {
+  max-width: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+}
+
+.grid h2 {
+  font-size: 3rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.grid div {
+  border: 1px solid var(--second-color);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid div:hover {
+  box-shadow: 0 0 5px 1px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 500ms;
 }

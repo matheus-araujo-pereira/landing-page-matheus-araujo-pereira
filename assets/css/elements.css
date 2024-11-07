@@ -5,6 +5,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -51,4 +52,15 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+.habilidades-content {
+  p {
+    margin-bottom: 3rem;
+  }
+}
+
+.introducao-texto h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
 }
