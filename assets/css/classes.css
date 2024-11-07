@@ -1,0 +1,24 @@
+.main-bg {
+  background-image: url("../img/large-triangles.png");
+  background-size: cover;
+  background-position: center center;
+  color: var(--second-color);
+}
+
+.second-bg {
+  background: var(--second-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu-space {
+  height: 65px;
+}
